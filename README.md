@@ -20,3 +20,7 @@ raw = message.String()
 ## Warning
 
 We are at v0.0.X, the API is subject to change
+
+## Original source
+
+[https://github.com/sorcix/irc](https://github.com/sorcix/irc)
