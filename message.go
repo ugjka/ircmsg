@@ -298,8 +298,9 @@ func ParseMessage(raw string) (m *Message) {
 
 		// Skip space at the end of the prefix
 		i++
+	} else {
+		i = k
 	}
-
 	// Find end of command
 	j = i + indexByte(raw[i:], space)
 
